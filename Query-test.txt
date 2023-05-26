@@ -1,0 +1,45 @@
+1. Bilangan cacah
+
+- Apa itu bilangan cacah
+- bilangan cacah kelipatan 3
+- how to add multiple numbers to array
+
+2. Pencarian
+
+- how to change array into string
+- how to lowercase string in javascript
+- how to use includes in javascript array
+
+3. Pengecekan kata sandi 
+- how to check if character is more than 32
+- how to check first character if it number or nut
+
+4. Pengecekan bilangan cacah 
+- how to check the lowest number in input
+- how to check the highest number in input
+
+5. Pola input N
+- how to make X base on input
+- how to make O in the middle of X
+
+
+
+Front end :
+border radius top left and right css
+border radius top
+cara membuat website berbeda ui setiap click button hanyan menggunakan javascript
+how to center image
+camera frame icon png
+how to make frame camera using css 
+how to make effect crop in webiste
+How to remove hover effect from Bootstrap button
+vertikal horizontal 
+how to center vertically css
+How do I horizontally center a span element inside a div
+How do I download colored font-awesome icons
+how to change layout when button is click in web
+
+
+
+
+
