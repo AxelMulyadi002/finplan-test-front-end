@@ -1,5 +1,9 @@
 # finplan-test-front-end
 
+Nama : Axel Mulyadi,
+Email : azelmulyadi02@gmail.com
+
+
 How to run the logic test :
 go to index.js and type "npm start" in terminal
 
