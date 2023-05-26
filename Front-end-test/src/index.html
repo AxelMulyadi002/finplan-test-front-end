@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="../node_modules/bootstrap/dist/css/bootstrap.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<nav class="navbar" style="background-color: #002984">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<i
+							class="fa-solid fa-circle-arrow-left"
+							id="panah"
+							style="color: #e0e2e5"
+						></i>
+						<h3 class="d-inline-block mx-2 text-light" id="profil-nav">
+							Profil
+						</h3>
+					</a>
+				</div>
+			</nav>
+
+			<nav class="navbar bg-body-tertiary cam-nav">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<div class="profil">
+							<span class="d-flex justify-content-center">
+								<i
+									class="fa-solid fa-camera kamera d-flex justify-content-center camera-i"
+								></i>
+								<img
+									src="./img/profil.jpg"
+									alt=""
+									class="final-profile d-none"
+								/>
+								<div class="d-inline-block mx-2">
+									<h6>John Doe</h6>
+									<h6 class="sub-font">Kelas 10 IPA 8</h6>
+								</div>
+							</span>
+						</div>
+					</a>
+				</div>
+			</nav>
+
+			<div class="box-picture d-none"></div>
+
+			<div class="m-auto kotak"></div>
+			<div class="m-auto my-3 kotak"></div>
+			<div class="m-auto kotak"></div>
+
+			<div class="image-container">
+				<img
+					src="./img/profil.jpg"
+					alt=""
+					width="340"
+					height="500"
+					class="foto-profil d-none"
+				/>
+				<img
+					src="./img/frame-bener.png"
+					width="340"
+					alt=""
+					class="frame d-none"
+				/>
+
+				<img
+					src="./img/circle-frame.png"
+					class="frame-circle d-none"
+					width="70"
+					alt=""
+				/>
+			</div>
+
+			<div>
+				<img
+					src="./img/profil.jpg"
+					alt=""
+					width="230"
+					height=""
+					class="d-none profil-two"
+				/>
+			</div>
+
+			<div class="kontaner">
+				<img
+					src="./img/profil.jpg"
+					width="300"
+					height="400"
+					alt=""
+					class="potong-gambar d-none"
+				/>
+				<button class="btn tombol-full-two d-none" type="button">Simpan</button>
+			</div>
+
+			<div class="d-grid gap-4 d-none button-layer-two">
+				<button class="btn tombol" type="button" id="take-from-camera">
+					Ambil Dari Kamera
+				</button>
+				<button class="btn tombol" type="button" id="take-from-gallery">
+					Ambil Dari Galery
+				</button>
+			</div>
+
+			<div class="d-grid gap-2 save-from-picture d-none">
+				<button class="btn tombol-full" type="button">Simpan</button>
+			</div>
+		</div>
+
+		<!-- <div class="d-grid gap-2 save-from-picture d-none">
+				<button class="btn tombol-full" type="button">Simpan</button>
+			</div>
+		</div> -->
+
+		<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+		<script
+			src="https://kit.fontawesome.com/219c735f89.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>
